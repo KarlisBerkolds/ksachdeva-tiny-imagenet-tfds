@@ -126,4 +126,5 @@ class TinyImagenetDataset(tfds.core.GeneratorBasedBuilder):
                     "image": image_path,
                     "id": label,
                     "label": image_info['id'],
+                    "oneHotVector":tf.one_hot(image_info['id'], 200),
                 }
