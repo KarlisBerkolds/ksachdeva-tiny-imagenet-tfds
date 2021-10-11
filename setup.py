@@ -10,7 +10,7 @@ import sys
 from setuptools import find_packages
 from setuptools import setup
 
-project_name = 'tiny-imagenet-tfds'
+project_name = 'ksachdeva-tiny-imagenet-tfds'
 
 # To enable importing version.py directly, we add its path to sys.path.
 version_path = os.path.join(
@@ -41,8 +41,8 @@ setup(
     long_description='\n'.join(DOCLINES[2:]),
     author='Kapil Sachdeva',
     author_email='not@anemail.org',
-    url='http://github.com/ksachdeva/tiny-imagenet-tfds',
-    download_url='https://github.com/ksachdeva/tiny-imagenet-tfds/tags',
+    url='https://github.com/KarlisBerkolds/ksachdeva-tiny-imagenet-tfds.git',
+    download_url='https://github.com/KarlisBerkolds/ksachdeva-tiny-imagenet-tfds.git/tags',
     license='Apache 2.0',
     packages=find_packages(exclude=("example",)),
     package_data={
